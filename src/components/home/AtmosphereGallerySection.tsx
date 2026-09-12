@@ -26,10 +26,10 @@ export const AtmosphereGallerySection: React.FC = () => {
     {
       id: 'lobby',
       num: '01',
-      name: { en: 'Lobby & Lounge', vi: 'Lobby & Lounge' },
+      name: { en: 'Lobby & Lounge', vi: 'Sảnh & Lounge' },
       count: 7,
       coverPhoto: '/photos/pexels-misbaa-eri-426041722-36354488.jpg',
-      desc: { en: 'Architectural dusk facade, courtyard lawn, timber entrance portal & hearth lounge.', vi: 'Mặt tiền kiến trúc đêm, sân vườn rực rỡ, cổng gỗ khối và sảnh đón tiếp.' },
+      desc: { en: 'Architectural dusk facade, courtyard lawn, timber entrance portal & hearth lounge.', vi: 'Mặt tiền kiến trúc lúc hoàng hôn, thảm cỏ sân trong, cổng vào bằng gỗ và không gian lounge bên khu vực sưởi.' },
     },
     {
       id: 'stone',
@@ -37,7 +37,7 @@ export const AtmosphereGallerySection: React.FC = () => {
       name: { en: 'Stone Suites', vi: 'Stone Suites' },
       count: 6,
       coverPhoto: '/photos/pexels-umudicreative-38183818.jpg',
-      desc: { en: 'Exposed natural stone masonry, vaulted timber beams & in-room hydrotherapy Jacuzzis.', vi: 'Tường đá mộc tự nhiên, trần dầm gỗ & bồn Jacuzzi thủy lực trong phòng.' },
+      desc: { en: 'Exposed natural stone masonry, vaulted timber beams & in-room hydrotherapy Jacuzzis.', vi: 'Tường đá tự nhiên nguyên bản, hệ xà gỗ vòm và bồn Jacuzzi thủy liệu pháp riêng trong phòng.' },
     },
     {
       id: 'suites',
@@ -45,7 +45,7 @@ export const AtmosphereGallerySection: React.FC = () => {
       name: { en: 'Garden Suites', vi: 'Garden Suites' },
       count: 6,
       coverPhoto: '/photos/pexels-quang-nguyen-vinh-222549-14025024.jpg',
-      desc: { en: 'Teak timber wall paneling, handcrafted bamboo pendant lamps & private patio access.', vi: 'Ốp tường gỗ teak ấm áp, đèn mây tre thủ công & hiên riêng ra sân vườn.' },
+      desc: { en: 'Teak timber wall paneling, handcrafted bamboo pendant lamps & private patio access.', vi: 'Hệ ốp tường gỗ teak, đèn tre thủ công và lối đi riêng ra sân vườn.' },
     },
     {
       id: 'urban',
@@ -53,23 +53,23 @@ export const AtmosphereGallerySection: React.FC = () => {
       name: { en: 'Urban Loft', vi: 'Urban Loft' },
       count: 4,
       coverPhoto: '/photos/pexels-khojiakbar-teshaboev-2154965416-34559240.jpg',
-      desc: { en: 'Contemporary city-view studios, houndstooth armchairs & floor-to-ceiling drapery.', vi: 'Phòng studio hướng phố hiện đại, ghế bành houndstooth & rèm kính cao kịch trần.' },
+      desc: { en: 'Contemporary city-view studios, houndstooth armchairs & floor-to-ceiling drapery.', vi: 'Không gian đương đại hướng thành phố, ghế bành họa tiết houndstooth và rèm cửa cao từ sàn đến trần.' },
     },
     {
       id: 'bedroom',
       num: '05',
-      name: { en: 'Bedrooms', vi: 'Phòng Ngủ' },
+      name: { en: 'Bedrooms', vi: 'Phòng ngủ' },
       count: 5,
       coverPhoto: '/photos/pexels-artbovich-7535007.jpg',
-      desc: { en: 'Integrated walk-in dressing suites, mirrored wardrobes, master beds & balcony views.', vi: 'Hệ thống phòng thay đồ mở, tủ gương, giường Master & cửa ban công.' },
+      desc: { en: 'Master bedrooms, open wardrobe dressing systems & high vaulted ceiling twin layouts.', vi: 'Phòng ngủ chính, hệ tủ dressing mở và bố trí giường đôi dưới những trần cao dạng vòm.' },
     },
     {
       id: 'bathrooms',
       num: '06',
-      name: { en: 'Bathrooms', vi: 'Phòng Tắm' },
-      coverPhoto: '/photos/pexels-artbovich-6587905.jpg',
+      name: { en: 'Bathrooms', vi: 'Phòng tắm' },
       count: 4,
-      desc: { en: 'Grey marble & travertine en-suites, circular halo mirrors, double vanities & rain showers.', vi: 'Phòng tắm bọc đá marble xám & travertine, gương tròn hắt sáng & vách tắm rain shower.' },
+      coverPhoto: '/photos/pexels-artbovich-6587905.jpg',
+      desc: { en: 'Grey marble tiles, circular halo mirrors, travertine double vanities & rain showers.', vi: 'Đá marble xám, gương halo tròn, bàn lavabo đôi bằng travertine và vòi sen mưa.' },
     },
   ];
 

@@ -7,23 +7,23 @@ const RAW_ROOMS_DATA: Room[] = [
     wingId: 'stone',
     name: {
       en: 'The Grand Stone Suite',
-      vi: 'Stone Suite Cao Cấp',
+      vi: 'The Grand Stone Suite',
     },
     subtitle: {
       en: 'Exposed Masonry, Vaulted Timber & Hydrotherapy Bath',
-      vi: 'Đá Tự Nhiên, Dầm Gỗ Mộc & Bồn Tắm Thủy Lực',
+      vi: 'Đá tự nhiên, trần gỗ vòm & bồn tắm thủy liệu pháp riêng',
     },
     tagline: {
       en: 'Rustic elegance framed by mountain panoramas and natural stone craft.',
-      vi: 'Vẻ đẹp mộc mạc sang trọng giữa thiên nhiên và nghệ thuật đá mộc.',
+      vi: 'Nét thanh lịch mộc mạc giữa những dãy núi khoáng đạt và nghệ thuật kiến tạo từ đá tự nhiên.',
     },
     description: {
       en: 'Carved with raw stone masonry walls and timber ceiling beams, this sanctuary features a private in-room hydrotherapy Jacuzzi tub overlooking scenic natural slopes. Complete with plush lounge chairs and pristine marble flooring.',
-      vi: 'Không gian được chế tác từ tường đá tự nhiên và dầm gỗ trần, trang bị bồn tắm Jacuzzi thủy lực riêng hướng tầm nhìn ra dãy núi kỳ vĩ. Phòng sở hữu khu vực ghế thư giãn cao cấp và sàn đá cẩm thạch bóng.',
+      vi: 'Được bao bọc bởi những bức tường đá tự nhiên và hệ xà trần gỗ, không gian nghỉ dưỡng này sở hữu bồn Jacuzzi thủy liệu pháp riêng, hướng tầm nhìn ra những triền núi xanh mướt. Ghế lounge êm ái cùng sàn đá cẩm thạch hoàn thiện vẻ tinh tế cho căn phòng.',
     },
     atmosphere: {
       en: 'Warm alpine tranquility infused with natural textures, tactile stone, and therapeutic bathing.',
-      vi: 'Bầu không khí yên bình, ấm áp với bề mặt đá mộc mạc và trải nghiệm thư giãn thủy lực.',
+      vi: 'Sự tĩnh tại ấm áp của miền sơn cước, hòa quyện cùng chất liệu tự nhiên, đá mộc và trải nghiệm ngâm mình thư giãn.',
     },
     heroPhoto: '/photos/pexels-umudicreative-38183818.jpg',
     galleryPhotos: [
@@ -43,21 +43,21 @@ const RAW_ROOMS_DATA: Room[] = [
         'Marble En-Suite Bathroom',
       ],
       vi: [
-        'Bồn Tắm Thủy Lực Jacuzzi Trong Phòng',
-        'Tường Đá Mộc Tự Nhiên',
-        'Trần Dầm Gỗ Cao Tròn',
-        'Cửa Sổ Toàn Cảnh Hướng Núi',
-        'Bàn Trang Điểm & Bộ Ghế Armchair',
-        'Phòng Tắm Marble Cao Cấp',
+        'Bồn tắm thủy liệu pháp âm sàn riêng trong phòng',
+        'Tường xây đá tự nhiên để lộ nguyên bản',
+        'Trần gỗ với hệ xà vòm',
+        'Cửa sổ toàn cảnh hướng núi',
+        'Gương bàn trang điểm thiết kế riêng & ghế lounge',
+        'Phòng tắm riêng lát đá cẩm thạch',
       ],
     },
     bedType: {
       en: 'Master King Bed',
-      vi: 'Giường Đôi King Size',
+      vi: 'Giường King cao cấp',
     },
     capacityNotice: {
       en: 'Ideal for couples or small families [crib placement visible]',
-      vi: 'Phù hợp cho cặp đôi hoặc gia đình nhỏ [có hỗ trợ nôi gỗ]',
+      vi: 'Phù hợp cho các cặp đôi hoặc gia đình nhỏ [có thể bố trí cũi em bé]',
     },
   },
 
@@ -66,23 +66,23 @@ const RAW_ROOMS_DATA: Room[] = [
     wingId: 'garden',
     name: {
       en: 'The Garden Villa Suite',
-      vi: 'Garden Villa Suite',
+      vi: 'The Garden Villa Suite',
     },
     subtitle: {
       en: 'Tropical Teak Wood, Woven Lanterns & Private Patio',
-      vi: 'Gỗ Teak Ấm Áp, Đèn Mây Tre & Hiên Vườn Riêng',
+      vi: 'Gỗ teak tự nhiên, đèn mây đan & hiên vườn riêng',
     },
     tagline: {
       en: 'Seamless indoor-outdoor living surrounded by lush garden greenery.',
-      vi: 'Trải nghiệm sống hòa quyện cùng thiên nhiên và sân vườn nhiệt đới.',
+      vi: 'Không gian sống liền mạch trong nhà – ngoài trời, bao quanh bởi sắc xanh nhiệt đới.',
     },
     description: {
       en: 'Crafted with rich teak timber wall paneling and handcrafted woven bamboo lighting, this villa suite opens directly onto a private garden patio terrace. Features handcrafted ceiling fans, patterned tile accents, and serene natural light.',
-      vi: 'Được thiết kế với tường gỗ teak tự nhiên và hệ thống đèn mây tre đan thủ công, căn Villa Suite mở trực tiếp ra hiên vườn nhiệt đới xanh mát. Trang bị quạt trần gỗ, điểm nhấn gạch bông và ánh sáng tự nhiên.',
+      vi: 'Được hoàn thiện với hệ ốp tường gỗ teak giàu sắc thái và những mẫu đèn tre đan thủ công, suite mở trực tiếp ra khoảng sân vườn riêng. Quạt trần thủ công, điểm nhấn gạch hoa văn và nguồn sáng tự nhiên dịu nhẹ tạo nên bầu không khí thư thái.',
     },
     atmosphere: {
       en: 'Boutique tropical retreat with gentle breezes, warm wood acoustics, and garden vistas.',
-      vi: 'Không gian nghỉ dưỡng nhiệt đới ngập tràn làn gió mát, chất gỗ ấm áp và cảnh quan sân vườn.',
+      vi: 'Một chốn nghỉ dưỡng nhiệt đới tinh tế, nơi làn gió nhẹ, chất gỗ ấm và những khoảng xanh trong vườn hòa quyện.',
     },
     heroPhoto: '/photos/pexels-quang-nguyen-vinh-222549-14025024.jpg',
     galleryPhotos: [
@@ -102,17 +102,17 @@ const RAW_ROOMS_DATA: Room[] = [
         'Luggage Bench & Work Vanity Console',
       ],
       vi: [
-        'Lối Vào Riêng Ra Hiên Sân Vườn Nhiệt Đới',
-        'Đèn Thả Mây Tre Đan Thủ Công',
-        'Ốp Tường Gỗ Teak Tự Nhiên',
-        'Quạt Trần Gỗ & Trần Mây Đan',
-        'Sàn Gạch Bông Họa Tiết',
-        'Kệ Hành Lý & Bàn Làm Việc Gỗ',
+        'Lối đi riêng trực tiếp ra sân vườn nhiệt đới',
+        'Đèn thả tre đan thủ công',
+        'Hệ ốp tường gỗ teak tự nhiên',
+        'Quạt trần thủ công & trần đan điểm họa tiết',
+        'Sàn lát gạch họa tiết thủ công',
+        'Ghế để hành lý & bàn trang điểm / bàn làm việc',
       ],
     },
     bedType: {
       en: 'King Size Teak Platform Bed',
-      vi: 'Giường King Size Khung Gỗ Teak',
+      vi: 'Giường King bệ gỗ teak',
     },
   },
 
@@ -121,23 +121,23 @@ const RAW_ROOMS_DATA: Room[] = [
     wingId: 'urban',
     name: {
       en: 'The Urban Loft Suite',
-      vi: 'Urban Loft Suite',
+      vi: 'The Urban Loft Suite',
     },
     subtitle: {
       en: 'Walk-In Closet, Houndstooth Accents & Architectural Lighting',
-      vi: 'Phòng Thay Đồ Integrated, Vải Houndstooth & Đèn Ray',
+      vi: 'Phòng thay đồ riêng, họa tiết houndstooth & ánh sáng kiến trúc',
     },
     tagline: {
       en: 'Sophisticated contemporary sanctuary with tailored dressing room and city views.',
-      vi: 'Không gian sống hiện đại tinh tế với phòng thay đồ riêng và tầm nhìn thành phố.',
+      vi: 'Không gian nghỉ dưỡng đương đại tinh tế với phòng thay đồ riêng và tầm nhìn rộng mở ra thành phố.',
     },
     description: {
       en: 'Designed for discerning travelers, the Urban Loft Suite features an integrated walk-in wardrobe system, custom vanity, houndstooth textiles, and teal lounge armchair set against floor-to-ceiling windows.',
-      vi: 'Dành cho du khách yêu thích sự tinh tế, phòng Urban Loft Suite sở hữu hệ thống phòng thay đồ mở, bàn trang điểm, họa tiết houndstooth sang trọng và ghế thư giãn bên cửa sổ cao kịch trần.',
+      vi: 'Được thiết kế dành cho những vị khách tinh tế, Urban Loft Suite sở hữu hệ tủ quần áo walk-in tích hợp, bàn trang điểm thiết kế riêng, chất liệu dệt họa tiết houndstooth và bộ ghế lounge xanh teal nổi bật trước những ô cửa kính cao từ sàn đến trần.',
     },
     atmosphere: {
       en: 'Metropolitan quiet luxury with neutral palette, soft wool carpets, and ambient track lights.',
-      vi: 'Vẻ đẹp quiet luxury thành thị với tông màu trung tính, thảm len êm ái và ánh sáng dịu nhẹ.',
+      vi: 'Sự sang trọng đương đại mang tinh thần đô thị, với bảng màu trung tính, thảm len mềm mại và hệ đèn ray tạo nên bầu không khí dịu nhẹ.',
     },
     heroPhoto: '/photos/pexels-artbovich-7535007.jpg',
     galleryPhotos: [
@@ -159,17 +159,17 @@ const RAW_ROOMS_DATA: Room[] = [
         'Travertine Double-Vanity Bathroom',
       ],
       vi: [
-        'Hệ Thống Phòng Thay Đồ & Tủ Gương Audio Integrated',
-        'Ghế Armchair Xanh Ngọc & Đôn Houndstooth',
-        'Cửa Sổ Kính Cao Kịch Trần',
-        'Bàn Làm Việc & Hộc TV Âm Tường',
-        'Hệ Thống Đèn Ray Chiếu Sáng Nghệ Thuật',
-        'Phòng Tắm Marble Travertine Hai Chậu Rửa',
+        'Phòng thay đồ walk-in & hệ tủ dressing tích hợp',
+        'Ghế lounge xanh teal & đôn họa tiết houndstooth',
+        'Cửa sổ kính cao từ sàn đến trần',
+        'Bàn làm việc thiết kế riêng & khu media tích hợp',
+        'Hệ đèn ray kiến trúc & đèn tạo không khí',
+        'Phòng tắm hai lavabo lát đá travertine',
       ],
     },
     bedType: {
       en: 'Upholstered Beige King Bed',
-      vi: 'Giường King Bọc Nệm Beige',
+      vi: 'Giường King bọc nệm màu be',
     },
   },
 
@@ -178,23 +178,23 @@ const RAW_ROOMS_DATA: Room[] = [
     wingId: 'garden',
     name: {
       en: 'The Sanctuary Twin Room',
-      vi: 'Sanctuary Twin Room',
+      vi: 'The Sanctuary Twin Room',
     },
     subtitle: {
       en: 'Versatile Twin Bedding, Natural Craft & Garden/Stone Aesthetics',
-      vi: 'Hai Giường Đơn Linh Hoạt, Chất Liệu Tự Nhiên & View Thư Thái',
+      vi: 'Giường đôi linh hoạt, chất liệu thủ công tự nhiên & sắc thái vườn/đá',
     },
     tagline: {
       en: 'Thoughtfully appointed twin space combining natural materials with modern comfort.',
-      vi: 'Không gian hai giường đơn tinh tế kết hợp vật liệu tự nhiên và sự tiện nghi.',
+      vi: 'Không gian nghỉ ngơi được chăm chút với chất liệu tự nhiên và tiện nghi đương đại.',
     },
     description: {
       en: 'Offering twin bed flexibility, this sanctuary room features geometric textured walls or natural timber headboards, handcrafted textiles, and warm ambient illumination. Available in both Stone and Garden wing settings.',
-      vi: 'Sở hữu không gian 2 giường đơn linh hoạt, phòng được bài trí với mảng tường hoạ tiết hoặc tựa đầu giường gỗ tự nhiên, thảm dệt thủ công và ánh sáng ấm áp. Có sẵn tại cả 2 phân khu Stone và Garden.',
+      vi: 'Với bố trí hai giường linh hoạt, căn phòng mang đến lựa chọn đầu giường họa tiết hình học hoặc gỗ tự nhiên, kết hợp cùng chất liệu dệt thủ công và ánh sáng ấm dịu. Phòng có thể được bố trí tại khu Stone hoặc Garden.',
     },
     atmosphere: {
       en: 'Serene, adaptable companion stay focused on rest, natural textures, and light.',
-      vi: 'Không gian nghỉ ngơi thư thái, linh hoạt chú trọng vào sự thoải mái và chất liệu tự nhiên.',
+      vi: 'Một không gian yên tĩnh và linh hoạt, đề cao sự nghỉ ngơi, chất liệu tự nhiên và ánh sáng.',
     },
     heroPhoto: '/photos/pexels-quang-nguyen-vinh-222549-14025022.jpg',
     galleryPhotos: [
@@ -213,16 +213,16 @@ const RAW_ROOMS_DATA: Room[] = [
         'Rain Shower En-Suite Bathroom',
       ],
       vi: [
-        'Bố Trí 2 Giường Đơn Drap Trắng Cao Cấp',
-        'Tựa Đầu Giường Gỗ Tự Nhiên / Điểm Nhấn Tường Đá',
-        'Đèn Đọc Sách & Ổ Cắm Tiện Nghi Riêng',
-        'Khăn Dệt Thủ Công',
-        'Phòng Tắm Đứng Vách Kính Rain Shower',
+        'Bố trí hai giường đơn với bộ chăn ga cao cấp',
+        'Chi tiết đầu giường gỗ / đá thiết kế riêng',
+        'Đèn đọc sách cá nhân & cổng sạc cạnh giường',
+        'Đồ dệt thủ công & chăn len dệt',
+        'Phòng tắm riêng với vòi sen mưa',
       ],
     },
     bedType: {
       en: 'Two Single Beds',
-      vi: 'Hai Giường Đơn',
+      vi: 'Hai giường đơn',
     },
   },
 ];
