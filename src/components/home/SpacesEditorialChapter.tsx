@@ -2,6 +2,7 @@ import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { StaggerReveal } from '../visual/StaggerReveal';
 import { Compass, Sparkles } from 'lucide-react';
+import { getAssetUrl } from '../../utils/assets';
 
 export const SpacesEditorialChapter: React.FC = () => {
   const { language, t } = useLanguage();
@@ -73,7 +74,7 @@ export const SpacesEditorialChapter: React.FC = () => {
                 <StaggerReveal delay={0.1}>
                   <div className="relative aspect-[16/10] overflow-hidden rounded-md bg-lumera-dark shadow-2xl">
                     <img
-                      src={spc.image}
+                      src={getAssetUrl(spc.image)}
                       alt={spc.title[language]}
                       loading="lazy"
                       className="w-full h-full object-cover object-center filter brightness-[0.95] hover:scale-105 transition-transform duration-1000"

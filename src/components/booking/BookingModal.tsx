@@ -4,6 +4,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import { ROOMS_DATA } from '../../content/rooms';
 import { X, Calendar, Users, CheckCircle2, ArrowRight, ArrowLeft, ShieldAlert, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { getAssetUrl } from '../../utils/assets';
 
 export const BookingModal: React.FC = () => {
   const { bookingState, closeBooking, setStep, updateBooking, submitEnquiry, resetBooking } = useBooking();
@@ -165,7 +166,7 @@ export const BookingModal: React.FC = () => {
                       >
                         <div className="flex items-center gap-4">
                           <img
-                            src={room.heroPhoto}
+                            src={getAssetUrl(room.heroPhoto)}
                             alt={room.name[language]}
                             className="w-20 h-16 object-cover rounded-sm border border-white/10"
                           />

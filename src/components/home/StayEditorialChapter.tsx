@@ -6,6 +6,7 @@ import { useBooking } from '../../context/BookingContext';
 import { StaggerReveal } from '../visual/StaggerReveal';
 import { RoomDetailModal } from '../rooms/RoomDetailModal';
 import { ArrowUpRight, Sparkles, Bed, Layers, CheckCircle2 } from 'lucide-react';
+import { getAssetUrl } from '../../utils/assets';
 
 export const StayEditorialChapter: React.FC = () => {
   const { language, t } = useLanguage();
@@ -81,7 +82,7 @@ export const StayEditorialChapter: React.FC = () => {
                       className="group relative aspect-[16/10] sm:aspect-[16/9] overflow-hidden rounded-md cursor-pointer bg-lumera-dark shadow-2xl"
                     >
                       <img
-                        src={room.heroPhoto}
+                        src={getAssetUrl(room.heroPhoto)}
                         alt={room.name[language]}
                         loading="lazy"
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000 ease-out filter brightness-[0.9] group-hover:brightness-100"

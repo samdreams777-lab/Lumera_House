@@ -1,6 +1,7 @@
 import { Room } from '../types';
+import { getAssetUrl } from '../utils/assets';
 
-export const ROOMS_DATA: Room[] = [
+const RAW_ROOMS_DATA: Room[] = [
   {
     id: 'grand-stone-suite',
     wingId: 'stone',
@@ -225,3 +226,9 @@ export const ROOMS_DATA: Room[] = [
     },
   },
 ];
+
+export const ROOMS_DATA: Room[] = RAW_ROOMS_DATA.map((room) => ({
+  ...room,
+  heroPhoto: getAssetUrl(room.heroPhoto),
+  galleryPhotos: room.galleryPhotos.map((photo) => getAssetUrl(photo)),
+}));

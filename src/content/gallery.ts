@@ -1,6 +1,7 @@
 import { PhotoItem } from '../types';
+import { getAssetUrl } from '../utils/assets';
 
-export const GALLERY_PHOTOS: PhotoItem[] = [
+const RAW_GALLERY_PHOTOS: PhotoItem[] = [
   // 01 — Lobby & Lounge (7 photos)
   {
     id: 'ext-01',
@@ -365,3 +366,8 @@ export const GALLERY_PHOTOS: PhotoItem[] = [
     roomCardSuitable: false,
   },
 ];
+
+export const GALLERY_PHOTOS: PhotoItem[] = RAW_GALLERY_PHOTOS.map((photo) => ({
+  ...photo,
+  src: getAssetUrl(photo.src),
+}));

@@ -2,6 +2,7 @@ import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { StaggerReveal } from '../visual/StaggerReveal';
 import { Sparkles, Bath, Trees, Flame, Shirt, Laptop, ShowerHead } from 'lucide-react';
+import { getAssetUrl } from '../../utils/assets';
 
 export const ExperienceEditorialChapter: React.FC = () => {
   const { language, t } = useLanguage();
@@ -77,7 +78,7 @@ export const ExperienceEditorialChapter: React.FC = () => {
                 <div className="group space-y-5 p-6 rounded-md bg-white/[0.02] border border-white/10 hover:border-lumera-gold/40 transition-all duration-500">
                   <div className="relative aspect-[16/9] overflow-hidden rounded-md bg-lumera-dark">
                     <img
-                      src={exp.photo}
+                      src={getAssetUrl(exp.photo)}
                       alt={exp.title[language]}
                       loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-[0.9]"
